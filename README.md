@@ -10,8 +10,10 @@ The tool is consist of
 
 5-Gmail hack section
 
-6-spam section (bother section)
+6-spam section
+
 ----------------------------------
+
 This tool provides you the good tools you need
 
 git clone https:// github.com/mego323/mr-prime.git
