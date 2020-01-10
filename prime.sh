@@ -61,7 +61,7 @@ fi
 if [ $a -eq 2 ]; then
 clear
 figlet -f big 'slowloris'
-gir clone https://github.com/gkbrk/slowloris
+git clone https://github.com/gkbrk/slowloris
 figlet -f big 'done'
 mv slowloris $HOME
 back
