@@ -2,15 +2,11 @@
 The tool is consist of
 1-ddos section
 
-2-ccgen section
+2-wifi hack
 
-3-fb hack section
+3-distribution install and setup
 
-4-insta hack section
-
-5-Gmail hack section
-
-6-spam section
+I will added more section but for now Iam busy
 
 ----------------------------------
 
@@ -21,6 +17,8 @@ git clone https:// github.com/mego323/mr-prime.git
 cd mr-prime 
 
 chmod +x *
+
+bash install to install requirement packages 
 
 run command
 
