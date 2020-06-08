@@ -1,24 +1,23 @@
 clear
 sleep 0.2
-figlet -f big "pro team"
+figlet -f "prime.sh"
 echo""
-echo""
-echo -e "(1)-termux"
+echo" you should use this file for one time only"
+echo -e "(1)-install termux requirements"
 echo -e "(2)-exit"
-read a
+echo ""
+echo "┏━━━[user@prime]━[install]"
+echo "┃"
+echo -n "┗━━━# ";read install
 
-if [ $a -eq 1 ]
+if [ $install -eq 1 ]
 then
 pkg install python -y
 pkg install python2 -y
-pkg install ruby -y
 pkg install git -y
 pkg install php -y
 pkg install perl -y
-pkg install nmap -y
-pkg install clang -y
 pkg install nano -y
-pkg install hydra -y
 pkg install figlet -y
 pkg install curl -y
 pkg install unzip -y
@@ -31,9 +30,14 @@ pkg install openssh -y
 termux-setup-storage -y
 apt update && apt upgrade -y
 
+elear
+echo "you have downloaded requirements"
+echo"starting mr prime"
+sleep 0.9
+bash prime.sh
 fi
 
-if [ $a -eq 2 ]
+if [ $install -eq 2 ]
 then
 exit
 
