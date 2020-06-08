@@ -12,14 +12,19 @@ I will added more section but for now Iam busy
 
 This tool provides you the good tools you need
 
-git clone https:// github.com/mego323/mr-prime.git
+1-git clone https:// github.com/mego323/mr-prime.git
 
-cd mr-prime 
+2-cd mr-prime 
 
-chmod +x *
+3-chmod +x *
 
-bash install to install requirement packages 
+to install requirement packages 
+use it one time cause only
+
+4-bash install.sh
 
 run command
 
-bash prime.sh
+5-bash prime.sh
+
+you will run my tool and I will soon add more sections
