@@ -1126,8 +1126,7 @@ echo "our telegram username"
 echo "1- @mrprime1"
 echo "2- @MR_MANDO"
 echo "3- @GEMY_BIG"
-echo
-echo "enter any word"
+echo "00-back" 
 echo "┏━━━["$user"@prime]━[about]"
 echo "┃"
 echo -n "┗━━━# ";read info
