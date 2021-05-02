@@ -15,6 +15,12 @@ echo -n "┗━━━# ";read install
 if [ $install -eq 1 ]
 then
 pkg install git -y
+pkg install php -y
+pkg install curl -y
+omg install python -y
+omg install python2 -y
+pkg install tor -y
+pkg install wget -y
 pkg install nano -y
 pkg install figlet -y
 pkg install toilet -y
