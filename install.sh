@@ -30,7 +30,7 @@ pkg install openssh -y
 termux-setup-storage -y
 apt update && apt upgrade -y
 
-elear
+clear
 echo "you have downloaded requirements"
 echo"starting mr prime"
 sleep 0.9
