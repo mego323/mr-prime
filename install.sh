@@ -1,8 +1,10 @@
 clear
 sleep 0.2
-figlet -f "prime.sh"
+figlet -f small  "pkg installer"
+
 echo""
-echo" you should use this file for one time only"
+echo " you should use this file for one time only"
+echo
 echo -e "(1)-install termux requirements"
 echo -e "(2)-exit"
 echo ""
@@ -12,21 +14,11 @@ echo -n "┗━━━# ";read install
 
 if [ $install -eq 1 ]
 then
-pkg install python -y
-pkg install python2 -y
 pkg install git -y
-pkg install php -y
-pkg install perl -y
 pkg install nano -y
 pkg install figlet -y
-pkg install curl -y
-pkg install unzip -y
-pkg install tor -y
-pkg install wget -y
-pkg install unrar -y
 pkg install toilet -y
 pkg install cmatrix -y
-pkg install openssh -y
 termux-setup-storage -y
 apt update && apt upgrade -y
 
