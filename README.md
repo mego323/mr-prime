@@ -12,7 +12,7 @@ I will added more section but for now Iam busy
 
 This tool provides you the good tools you need
 
-1-git clone https:// github.com/mego323/mr-prime.git
+1-git clone https://github.com/mego323/mr-prime.git
 
 2-cd mr-prime 
 
