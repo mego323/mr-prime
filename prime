@@ -1,0 +1,20 @@
+#!/bin/bash
+
+tool="prime"
+# NOW THE TOOL WILL WORK ONLY ON TERMUX..
+opt_folder="/data/data/com.termux/files/usr/share"
+sbin_folder="/data/data/com.termux/files/usr/bin"
+opt="${opt_folder}/${tool}"
+sbin="${sbin_folder}/${tool}"
+
+
+#            IF YOU WANT TO RUN ON KALI REPLACING THESE.. 
+#     ***BUT MOST TOOLS INSTALLED ARE SUPPORTED ON TERMUX ONLY***
+# +---------------------+---------------------------------------------------------------+
+# |   KALI LINUX        |     TERMUX                                                    |
+# +---------------------+---------------------------------------------------------------+
+# |   /opt/prime        |  /data/data/com.termux/files/usr/share/prime                  |
+# |   /sbin/prime       |  /data/data/com.termux/files/usr/bin/prime                    |
+# +---------------------+---------------------------------------------------------------+
+
+bash "${opt}/prime.sh" $@
