@@ -23,8 +23,6 @@ pkg install python2 -y
 pkg install tor -y
 pkg install wget -y
 pkg install figlet -y
-pkg install toilet -y
-pkg install cmatrix -y
 termux-setup-storage -y
 
 
