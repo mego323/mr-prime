@@ -30,7 +30,7 @@ termux-setup-storage -y
 clear
 echo "you have downloaded requirements"
 echo"starting mr prime"
-sleep 0.9
+sleep 0.6
 bash prime.sh
 fi
 
