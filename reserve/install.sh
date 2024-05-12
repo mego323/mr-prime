@@ -1,3 +1,4 @@
+pkg install figlet -y
 clear
 sleep 0.2
 figlet -f small  "pkg installer"
